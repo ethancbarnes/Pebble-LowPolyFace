@@ -1,0 +1,89 @@
+{
+    "appKeys": {
+        "AppKeyBackgroundColor": 0,
+        "AppKeyVibrate": 1,
+        "AppKeyLeadingZero": 2,
+        "AppKeyShowBattery": 3
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "ECandB",
+    "enableMultiJS": false,
+    "longName": "Low Poly",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/yellow.png",
+                "name": "YELLOW",
+                "type": "png"
+            },
+            {
+                "file": "images/purple.png",
+                "name": "PURPLE",
+                "type": "png"
+            },
+            {
+                "file": "images/green.png",
+                "name": "GREEN",
+                "type": "png"
+            },
+            {
+                "file": "images/blue.png",
+                "name": "BLUE",
+                "type": "png"
+            },
+            {
+                "file": "images/red.png",
+                "name": "RED",
+                "type": "png"
+            },
+            {
+                "file": "images/blueround.png",
+                "name": "BLUE_ROUND",
+                "type": "png"
+            },
+            {
+                "file": "images/redround.png",
+                "name": "RED_ROUND",
+                "type": "png"
+            },
+            {
+                "file": "images/greenround.png",
+                "name": "GREEN_ROUND",
+                "type": "png"
+            },
+            {
+                "file": "images/bluetoothicon.png",
+                "name": "BLUETOOTH",
+                "type": "png"
+            },
+            {
+                "file": "images/battery.png",
+                "name": "BATTERY",
+                "type": "png"
+            },
+            {
+                "file": "fonts/blocky.ttf",
+                "name": "BLOCKY_20",
+                "type": "font"
+            },
+            {
+                "file": "fonts/blocky.ttf",
+                "name": "BLOCKY_58",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Low Poly",
+    "targetPlatforms": [
+        "basalt", "chalk"
+    ],
+    "uuid": "8c9e88e6-b7f8-403a-9a78-e1bcb69d329a",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
