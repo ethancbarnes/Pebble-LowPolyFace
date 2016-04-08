@@ -8,4 +8,10 @@ Low Poly watchface for Pebble Time and Pebble Time Round.
 
 Designed based on the minimalism and simplicity of low poly art. Comes in blue, red, and green. More colors coming soon!
 
+Features include:   
+  * Three different colored backgrounds
+  * Toggle leading zero
+  * Battery meter
+  * More features coming soon!
+
 Designed and built by Ethan Barnes
