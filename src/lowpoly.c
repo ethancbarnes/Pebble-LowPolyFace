@@ -5,8 +5,8 @@ static TextLayer *time_layer, *date_layer;
 static GBitmap *bg_bitmap, *bt_icon_bitmap, *battery_icon_bitmap;
 static BitmapLayer *bg_bitmap_layer, *bt_icon_layer, *battery_icon_layer;
 static GFont timeFont, dateFont;
-static int battery_level;
 static Layer *battery_layer;
+static int battery_level;
 
 typedef enum {
   AppKeyBackgroundColor = 0,
@@ -50,17 +50,17 @@ static void update_time() {
   struct tm *tick_time = localtime(&temp);
 
   // Time
-  static char s_buffer[8];
-  strftime(s_buffer, sizeof(s_buffer), clock_is_24h_style() ? "%H:%M" : "%I:%M", tick_time);
+  static char time_buffer[8];
+  strftime(time_buffer, sizeof(time_buffer), clock_is_24h_style() ? "%H:%M" : "%I:%M", tick_time);
   if(persist_read_bool(AppKeyLeadingZero)) {
-    text_layer_set_text(time_layer, s_buffer);
+    text_layer_set_text(time_layer, time_buffer);
   } else {
-    if(s_buffer[0]=='0'){
-      char *temp = s_buffer;
+    if(time_buffer[0]=='0'){
+      char *temp = time_buffer;
       temp++;
       text_layer_set_text(time_layer, temp);
     } else {
-      text_layer_set_text(time_layer, s_buffer);
+      text_layer_set_text(time_layer, time_buffer);
     }
   }
 
