@@ -12,6 +12,8 @@ Features include:
   * Battery meter
   * More features coming soon!
 
+Download on the Pebble Appstore: https://apps.getpebble.com/en_US/application/5707646961753a9caa00001b?dev_settings=true&native=false
+
 Sample images:
 
 ![alt text](http://i.imgur.com/b9h5vUz.png)
